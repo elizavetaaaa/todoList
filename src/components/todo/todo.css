@@ -1,0 +1,15 @@
+.todoList__name.active{
+    text-decoration: line-through;
+}
+
+.todoList__name.important{
+    color: red;
+    font-weight: bold;
+}
+
+.todo__input{
+    height: 30px;
+    width: calc(50% - 10px);
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
